@@ -4,6 +4,6 @@ WORKDIR /var/www
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 3000
 
-CMD ["httpd", "-f", "-p", "8080", "-h", "/var/www"]
+CMD ["httpd", "-f", "-p", "3000", "-h", "/var/www"]
